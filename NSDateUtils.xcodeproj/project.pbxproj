@@ -11,8 +11,8 @@
 		9EC460381A7D2D0500A559FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC460371A7D2D0500A559FE /* ViewController.swift */; };
 		9EC4603B1A7D2D0500A559FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC460391A7D2D0500A559FE /* Main.storyboard */; };
 		9EC4603D1A7D2D0500A559FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC4603C1A7D2D0500A559FE /* Images.xcassets */; };
-		9EC460401A7D2D0500A559FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC4603E1A7D2D0500A559FE /* LaunchScreen.xib */; };
 		9EC4604C1A7D2D0500A559FE /* NSDateUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC4604B1A7D2D0500A559FE /* NSDateUtilsTests.swift */; };
+		9EC460561A7D32ED00A559FE /* NSDateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC460551A7D32ED00A559FE /* NSDateUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +32,10 @@
 		9EC460371A7D2D0500A559FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9EC4603A1A7D2D0500A559FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EC4603C1A7D2D0500A559FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9EC4603F1A7D2D0500A559FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9EC460451A7D2D0500A559FE /* NSDateUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDateUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC4604A1A7D2D0500A559FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EC4604B1A7D2D0500A559FE /* NSDateUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDateUtilsTests.swift; sourceTree = "<group>"; };
+		9EC460551A7D32ED00A559FE /* NSDateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,9 @@
 			children = (
 				9EC460351A7D2D0500A559FE /* AppDelegate.swift */,
 				9EC460371A7D2D0500A559FE /* ViewController.swift */,
+				9EC460551A7D32ED00A559FE /* NSDateUtils.swift */,
 				9EC460391A7D2D0500A559FE /* Main.storyboard */,
 				9EC4603C1A7D2D0500A559FE /* Images.xcassets */,
-				9EC4603E1A7D2D0500A559FE /* LaunchScreen.xib */,
 				9EC460331A7D2D0500A559FE /* Supporting Files */,
 			);
 			path = NSDateUtils;
@@ -193,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EC4603B1A7D2D0500A559FE /* Main.storyboard in Resources */,
-				9EC460401A7D2D0500A559FE /* LaunchScreen.xib in Resources */,
 				9EC4603D1A7D2D0500A559FE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EC460381A7D2D0500A559FE /* ViewController.swift in Sources */,
+				9EC460561A7D32ED00A559FE /* NSDateUtils.swift in Sources */,
 				9EC460361A7D2D0500A559FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +242,6 @@
 				9EC4603A1A7D2D0500A559FE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9EC4603E1A7D2D0500A559FE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9EC4603F1A7D2D0500A559FE /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
