@@ -2,6 +2,8 @@
 NSDate swift extension for adding and removing hours and days from NSDate
 Some utils for working with NSDate operations:
 
+Conversions implemented
+
 addOneHour() - Adds one hour to NSDate
 
 substractOneHour() - Removes one hour to NSDate
